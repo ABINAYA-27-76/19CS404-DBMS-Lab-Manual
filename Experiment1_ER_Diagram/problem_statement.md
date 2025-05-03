@@ -120,21 +120,31 @@ University Database
  
 ## Relationships and Constraints:
  Student- course:
+ 
  1. Relationship-enrollment
+    
  2. A student can enroll to many course.
 
  course-instructor:
+ 
  1.relationship "faculty"
+ 
  2. instructor can teach one course.
 
 course-department:
+
 1.relationship-"offered"
+
 2. A course isoffered by one department.
+
 3. A department can offer multiple courses.
 
 Class- Course
+
  1. "teaches" Relationship
+   
  2. A class is based on one course.
+    
  3. A course can have multiple classes.
   
 ## Extension (Prerequisite / Billing):
