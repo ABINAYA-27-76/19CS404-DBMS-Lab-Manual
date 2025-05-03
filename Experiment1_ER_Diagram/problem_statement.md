@@ -56,7 +56,8 @@ University Database
 
 
 ## Entities and Attributes:
-# Student:
+Student:
+
  1. StudentID (Primary Key)
  2. FirstName
  3. Admission no
@@ -65,24 +66,35 @@ University Database
  6. PhoneNumber
  7. gender
  8. Address
-# course:
+
+
+course:
+
  1. CourseID (Primary Key)
  2. CourseName
  3.Credits
  4. DepartmentID
-# Instructor:
+
+
+Instructor:
+
  1.instructor id
  2.Name
  3.phoneno
  4.department
  5.email
 
- # classroom:
- 1.classroom id
- 2.room number
- 3.capacity
- 4.building
- # department:
+
+
+ class:
+ 
+ 1.class id
+ 2.year 
+ 3.schedule
+ 4.semester
+ 
+ department:
+ 
  1.department id 
  2.department name
  3.head of the department
