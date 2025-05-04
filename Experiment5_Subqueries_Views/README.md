@@ -347,7 +347,7 @@ ord_no           purch_amt        cust_name        city
 ---------------  ---------------  ---------------  ---------------
 70007            948.5            Graham Zusi      California
 70010            1983.43          Fabian Johns     Paris
-
+```
 ```sql
 SELECT 
     o.ord_no,
@@ -388,7 +388,10 @@ date_of_birth    appointment_id   patient_id       doctor_id        appointment_
 
 ```
 ```sql
-
+select p.date_of_birth,a.appointment_id,a.patient_id,a.doctor_id,a.appointment_date
+from patients p
+inner join APPOINTMENTS a ON p.patient_id=a.patient_id
+where p.first_name="Alice";
 ```
 
 **Output:**
